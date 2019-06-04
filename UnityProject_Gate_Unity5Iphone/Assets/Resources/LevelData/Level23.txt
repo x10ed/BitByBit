@@ -1,0 +1,17 @@
+Scene:level_BG_04
+Name:23
+InventoryBackground:InventoryBackground
+Inventory:jumpBlue;1,arrowBlue;9
+StartPositionX:-9,0
+StartPositionY:5,0
+UnlocksLevels:Level15
+OneStar:3
+TwoStars:5
+ThreeStars:6
+LevelWin:3
+__,__,00,00,00,00,00,__
+__,00,SL,XX,SD,BF,00,00
+__,00,XX,SD,BJ,SL,BU,00
+__,__,SR,00,__,XX,00,__
+__,SR,00,__,XX,00,00,__
+__,00,00,00,00,BU,__,__

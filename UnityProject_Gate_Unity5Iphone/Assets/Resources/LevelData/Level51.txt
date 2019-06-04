@@ -1,0 +1,17 @@
+Scene:level_BG_02
+Name:51
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;4,arrowPink;5,arrowOrange;4,jumpBlue;2,jumpOrange;2,colorChangeOrange;2
+StartPositionX:-9,0
+StartPositionY:5,0
+UnlocksLevels:Level52
+OneStar:7
+TwoStars:8
+ThreeStars:9
+LevelWin:7
+00,XX,00,00,00,RD,SL,00
+PX,__,00,00,00,00,__,XX
+00,RL,PJ,__,PF,SD,00,00
+KR,XX,00,BF,__,00,00,KL
+00,__,00,XX,00,00,__,XX
+00,RR,XX,BX,00,00,KL,KU

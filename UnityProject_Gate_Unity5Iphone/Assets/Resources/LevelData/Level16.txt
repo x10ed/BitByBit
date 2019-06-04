@@ -1,0 +1,16 @@
+Scene:level_BG_05
+Name:16
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;5,arrowOrange;5,arrowPink;5
+StartPositionX:-8,0
+StartPositionY:4,0
+UnlocksLevels:Level33
+OneStar:4
+TwoStars:5
+ThreeStars:6
+LevelWin:4
+00,00,00,00,00,XX,00
+00,00,KD,RD,SD,OD,00
+00,BX,BF,OF,PF,00,00
+00,KU,RU,SU,PX,00,00
+PU,00,00,00,00,00,BU

@@ -1,0 +1,17 @@
+Scene:level_BG_04
+Name:37
+InventoryBackground:InventoryBackground
+Inventory:arrowPink;8,jumpPink;4
+StartPositionX:-7,0
+StartPositionY:5,0
+UnlocksLevels:Level31
+OneStar:4
+TwoStars:5
+ThreeStars:6
+LevelWin:4
+RD,00,00,00,00,__
+RR,00,00,00,__,00
+00,__,00,__,00,RD
+00,PF,__,RR,00,00
+00,__,00,RL,__,00
+__,RR,00,00,00,00

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{18B4D975-A3D9-BD9D-1115-7B624612D250}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_5;UNITY_4_6;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity 4.6/Unity46.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity 4.6/Unity46.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\CreatePlane.cs" />
+     <Compile Include="Assets\Editor\FloopPostprocessBuildPlayer.cs" />
+     <Compile Include="Assets\Soomla\Editor\SoomlaPostBuild.cs" />
+     <Compile Include="Assets\Soomla\Editor\SoomlaSettingsEditor.cs" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_play.xml" />
+     <None Include="Assets\Resources\LevelData\Level23.txt" />
+     <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
+     <None Include="Assets\Resources\LevelData\Level5.txt" />
+     <None Include="Assets\Resources\LevelData\Level6.txt" />
+     <None Include="Assets\Resources\LevelData\Level18.txt" />
+     <None Include="Assets\Resources\LevelData\Level21.txt" />
+     <None Include="Assets\Resources\LevelData\Level36.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel1.txt" />
+     <None Include="Assets\Resources\LevelData\Level40.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel3.txt" />
+     <None Include="Assets\Resources\LevelData\Level51.txt" />
+     <None Include="Assets\Resources\LevelData\Level25.txt" />
+     <None Include="Assets\Resources\LevelData\WorldOrderSchool.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder2.txt" />
+     <None Include="Assets\Plugins\Android\unityads\build.xml" />
+     <None Include="Assets\Resources\LevelData\Level30.txt" />
+     <None Include="Assets\Resources\LevelData\Level37.txt" />
+     <None Include="Assets\Resources\LevelData\Level2.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_audio_toggle.xml" />
+     <None Include="Assets\Resources\LevelData\Level29.txt" />
+     <None Include="Assets\Resources\LevelData\Level4.txt" />
+     <None Include="Assets\Resources\LevelData\Level15.txt" />
+     <None Include="Assets\Resources\LevelData\Level49.txt" />
+     <None Include="Assets\Resources\LevelData\Level9.txt" />
+     <None Include="Assets\Resources\LevelData\Level34.txt" />
+     <None Include="Assets\Resources\LevelData\Level47.txt" />
+     <None Include="Assets\Resources\LevelData\Level13.txt" />
+     <None Include="Assets\Resources\LevelData\WorldOrder.txt" />
+     <None Include="Assets\Resources\LevelData\Level14.txt" />
+     <None Include="Assets\Resources\LevelData\Level3.txt" />
+     <None Include="Assets\Resources\LevelData\Level1.txt" />
+     <None Include="Assets\Resources\LevelData\Level16.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_background_button_pause.xml" />
+     <None Include="Assets\Resources\LevelData\Level1_test.txt" />
+     <None Include="Assets\Resources\LevelData\Level48.txt" />
+     <None Include="Assets\Resources\LevelData\Level35.txt" />
+     <None Include="Assets\Resources\LevelData\Level11.txt" />
+     <None Include="Assets\Resources\LevelData\Level17.txt" />
+     <None Include="Assets\Resources\LevelData\Level43.txt" />
+     <None Include="Assets\Resources\LevelData\Level38.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder3.txt" />
+     <None Include="Assets\Resources\LevelData\sandbox.txt" />
+     <None Include="Assets\Resources\LevelData\Level44.txt" />
+     <None Include="Assets\Plugins\WP8\IAPMock.xml" />
+     <None Include="Assets\Resources\LevelData\Level50.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_triangle.xml" />
+     <None Include="Assets\Resources\LevelData\Level42.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
+     <None Include="Assets\Resources\LevelData\LevelOrder4.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_waves.xml" />
+     <None Include="Assets\Resources\LevelData\Level27.txt" />
+     <None Include="Assets\Resources\LevelData\Level31.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_base.xml" />
+     <None Include="Assets\Resources\LevelData\Level10.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder.txt" />
+     <None Include="Assets\Resources\LevelData\Level7.txt" />
+     <None Include="Assets\Resources\LevelData\Level33.txt" />
+     <None Include="Assets\Resources\LevelData\Level22.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_play.xml" />
+     <None Include="Assets\Resources\LevelData\Level24.txt" />
+     <None Include="Assets\Resources\LevelData\Level19.txt" />
+     <None Include="Assets\Resources\LevelData\Level39.txt" />
+     <None Include="Assets\Resources\LevelData\Level46.txt" />
+     <None Include="Assets\Resources\LevelData\Level12.txt" />
+     <None Include="Assets\Resources\LevelData\Level32.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Resources\LevelData\Level52.txt" />
+     <None Include="Assets\Resources\LevelData\Level20.txt" />
+     <None Include="Assets\Resources\LevelData\Level26.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel2.txt" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_pause.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_paused.xml" />
+     <None Include="Assets\Resources\LevelData\Level8.txt" />
+     <None Include="Assets\Resources\LevelData\Level41.txt" />
+     <None Include="Assets\Resources\LevelData\Level28.txt" />
+     <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
+     <None Include="Assets\Resources\LevelData\Level45.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity 4.6/Unity46.app/Contents/UnityExtensions/Unity/GUISystem/4.6.5/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity 4.6/Unity46.app/Contents/UnityExtensions/Unity/GUISystem/4.6.5/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="soomla-wp-core">
+ <HintPath>/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/soomla-wp-core.dll</HintPath>
+ </Reference>
+ <Reference Include="wp-store">
+ <HintPath>/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/wp-store.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity 4.6/Unity46.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{9B337626-DDE8-7B3E-34B3-9F3820812C8A}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{2A495EC0-E1ED-F2F8-208A-73E8CE857194}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass-vs.csproj">
+      <Project>{3DF3722D-A875-3CA0-6022-EE44A5C367D5}</Project>      <Name>Assembly-CSharp-Editor-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

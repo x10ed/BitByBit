@@ -1,0 +1,14 @@
+Scene:level_BG_03
+Name:9
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;4
+StartPositionX:-4,0
+StartPositionY:2,0
+UnlocksLevels:Level13
+OneStar:2
+TwoStars:3
+ThreeStars:4
+LevelWin:2
+00,SL,00
+SD,SD,BF
+00,00,SL

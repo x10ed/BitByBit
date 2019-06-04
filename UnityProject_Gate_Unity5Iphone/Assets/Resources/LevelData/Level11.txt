@@ -1,0 +1,17 @@
+Scene:level_BG_03
+Name:11
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;4,arrowOrange;3,jumpBlue;2,jumpOrange;2
+StartPositionX:-7,0
+StartPositionY:5,0
+Nextworld:LevelOrder2,Level22
+OneStar:1
+TwoStars:2
+ThreeStars:3
+LevelWin:1
+__,__,00,XX,SL,__
+__,00,XX,00,__,OF
+00,XX,00,__,XX,XX
+XX,00,__,00,00,XX
+BF,__,00,00,KU,__
+__,SR,00,00,__,__

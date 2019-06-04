@@ -1,0 +1,17 @@
+Scene:level_BG_04
+Name:34
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;4,arrowPink;7,arrowOrange;5,jumpBlue;2,jumpPink;2,jumpOrange;2
+StartPositionX:-9,0
+StartPositionY:4,5
+Nextworld:LevelOrder3,Level20
+OneStar:6
+TwoStars:7
+ThreeStars:8
+LevelWin:6
+__,KR,00,00,00,00,__,__
+00,RR,00,00,XX,00,RD,00
+SR,00,00,__,00,BF,KL,00
+__,OF,SU,PF,__,00,XX,00
+__,00,00,SL,00,00,00,__
+__,__,__,RR,00,00,00,__

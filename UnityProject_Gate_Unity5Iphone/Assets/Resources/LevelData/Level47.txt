@@ -1,0 +1,16 @@
+Scene:level_BG_05
+Name:47
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;2,arrowOrange;2,colorChangeBlue;1,colorChangePink;1,colorChangeOrange;1
+StartPositionX:-9,0
+StartPositionY:4,0
+UnlocksLevels:tutLevel3
+OneStar:3
+TwoStars:4
+ThreeStars:5
+LevelWin:3
+00,00,00,__,__,__,__,__
+00,__,00,__,RD,__,__,__
+BF,SR,00,RR,00,KL,00,OF
+__,__,KU,__,00,__,__,00
+__,__,__,__,00,00,00,00

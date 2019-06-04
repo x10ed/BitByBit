@@ -1,0 +1,16 @@
+Scene:level_BG_02
+Name:27
+InventoryBackground:InventoryBackground
+Inventory:arrowPink;5,arrowOrange;5,jumpPink;2,jumpOrange;2
+StartPositionX:-9,0
+StartPositionY:5,0
+OneStar:1
+TwoStars:3
+ThreeStars:4
+LevelWin:1
+00,RD,__,__,__,__,KD,00
+00,00,__,__,__,__,00,00
+T1,00,__,PF,XX,__,00,T1
+T2,00,__,XX,OF,__,00,T2
+00,KU,__,__,__,__,RU,00
+00,00,__,__,__,__,00,00

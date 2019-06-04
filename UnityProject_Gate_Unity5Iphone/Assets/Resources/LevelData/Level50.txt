@@ -1,0 +1,17 @@
+Scene:level_BG_02
+Name:50
+OnStartPopUp:pop_up_teleport
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;2,arrowOrange;2
+StartPositionX:-8,0
+StartPositionY:5,0
+UnlocksLevels:Level48
+OneStar:1
+TwoStars:1
+ThreeStars:2
+LevelWin:1
+__,__,OF,XX,00,__,__
+__,__,__,__,XX,__,__
+BF,SR,T1,__,T1,XX,00
+__,__,XX,__,__,__,__
+__,__,00,XX,KL,__,__

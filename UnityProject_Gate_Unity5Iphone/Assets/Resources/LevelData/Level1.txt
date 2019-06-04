@@ -1,0 +1,16 @@
+Scene:level_BG_03
+Name:2
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;1
+WinCondition:Blue;1,Orange;0
+StartPositionX:-4,0
+StartPositionY:4,0
+IsAllwaysUnlocked:true
+UnlocksLevels:Level25
+OneStar:0
+TwoStars:1
+ThreeStars:1
+LevelWin:1
+SR,00,0T
+__,00,00
+__,__,BF

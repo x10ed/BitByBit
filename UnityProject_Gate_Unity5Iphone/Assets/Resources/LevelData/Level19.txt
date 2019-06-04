@@ -1,0 +1,14 @@
+Scene:MapGen1
+Name:19
+InventoryBackground:InventoryBackground
+Inventory:arrowPink;2,arrowOrange;3
+StartPositionX:-6,0
+StartPositionY:3,0
+OneStar:1
+TwoStars:2
+ThreeStars:3
+LevelWin:1
+__,OF,00,00,00
+__,__,__,00,KD
+PF,RR,NJ,00,00
+__,KR,00,00,00

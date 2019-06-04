@@ -1,0 +1,17 @@
+Scene:level_BG_02
+Name:52
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;2,arrowOrange;5,jumpBlue;2,jumpPink;2,colorChangePink;1,colorChangeBlue;2
+StartPositionX:-9,0
+StartPositionY:5,0
+UnlocksLevels:Level27
+OneStar:4
+TwoStars:5
+ThreeStars:6
+LevelWin:4
+00,00,00,OF,00,SL,00,SD
+00,__,XX,PD,T2,00,RL,00
+T2,__,00,SD,RL,XX,__,__
+__,__,NR,00,00,00,__,T1
+OJ,KR,OJ,T1,BU,00,__,00
+00,00,BL,00,PF,00,00,NU

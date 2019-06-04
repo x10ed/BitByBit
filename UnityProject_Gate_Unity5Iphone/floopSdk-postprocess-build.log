@@ -1,0 +1,592 @@
+[FloopSDK post-build] 2015/06/28 12:30:10: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/06/28 12:30:10: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/06/28 12:30:10: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 12:30:10: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 12:30:10: RunPythonScript: scriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch2; cwd: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch2, source root: /Users/Rene/Desktop/BitByBit_launch2
+tarball flag file /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/.iOS.tar.1435483515.0.extracted exists? False
+extracting /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/iOS.tar.gz to /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch2/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch2/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/06/28 12:30:12: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch2"  "/Users/Rene/Desktop/bbb/Bit by Bit/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/06/28 14:11:58: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/06/28 14:11:58: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/06/28 14:11:58: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 14:11:58: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 14:11:58: RunPythonScript: scriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch3; cwd: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch3, source root: /Users/Rene/Desktop/BitByBit_launch3
+tarball flag file /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/.iOS.tar.1435483515.0.extracted exists? True
+tarball already extracted at /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch3/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch3/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/06/28 14:11:59: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch3"  "/Users/Rene/Desktop/bbb/Bit by Bit/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/06/28 14:38:21: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/06/28 14:38:21: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/06/28 14:38:21: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 14:38:21: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 14:38:21: RunPythonScript: scriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch4; cwd: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch4, source root: /Users/Rene/Desktop/BitByBit_launch4
+tarball flag file /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/.iOS.tar.1435483515.0.extracted exists? True
+tarball already extracted at /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch4/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch4/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/06/28 14:38:24: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch4"  "/Users/Rene/Desktop/bbb/Bit by Bit/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/06/28 14:52:23: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/06/28 14:52:23: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/06/28 14:52:23: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 14:52:23: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 14:52:23: RunPythonScript: scriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch45; cwd: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch45, source root: /Users/Rene/Desktop/BitByBit_launch45
+tarball flag file /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/.iOS.tar.1435483515.0.extracted exists? True
+tarball already extracted at /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch45/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch45/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/06/28 14:52:25: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch45"  "/Users/Rene/Desktop/bbb/Bit by Bit/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/06/28 15:05:51: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/06/28 15:05:51: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/06/28 15:05:51: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 15:05:51: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/06/28 15:05:51: RunPythonScript: scriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch6; cwd: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch6, source root: /Users/Rene/Desktop/BitByBit_launch6
+tarball flag file /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/.iOS.tar.1435483515.0.extracted exists? True
+tarball already extracted at /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch6/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch6/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/06/28 15:05:52: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch6"  "/Users/Rene/Desktop/bbb/Bit by Bit/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/07/29 21:14:24: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/07/29 21:14:24: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/07/29 21:14:24: CombinePaths: full: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/07/29 21:14:24: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/07/29 21:14:24: RunPythonScript: scriptPath:/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch7; cwd: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch7, source root: /Users/Rene/Desktop/BitByBit_launch7
+tarball flag file /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/.iOS.tar.1435483515.0.extracted exists? True
+tarball already extracted at /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch7/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1435483515.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch7/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/07/29 21:14:25: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/bbb/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch7"  "/Users/Rene/Desktop/bbb/Bit by Bit/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/08/16 13:49:06: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/08/16 13:49:06: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/08/16 13:49:06: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 13:49:06: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 13:49:06: RunPythonScript: scriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch9; cwd: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch9, source root: /Users/Rene/Desktop/BitByBit_launch9
+tarball flag file /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/.iOS.tar.1439719669.0.extracted exists? False
+extracting /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/iOS.tar.gz to /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch9/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch9/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/08/16 13:49:08: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch9"  "/Users/Rene/Desktop/UnityProject_Gate/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/08/16 14:01:20: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/08/16 14:01:20: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/08/16 14:01:20: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 14:01:20: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 14:01:20: RunPythonScript: scriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch10; cwd: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch10, source root: /Users/Rene/Desktop/BitByBit_launch10
+tarball flag file /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/.iOS.tar.1439719669.0.extracted exists? True
+tarball already extracted at /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch10/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch10/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/08/16 14:01:22: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch10"  "/Users/Rene/Desktop/UnityProject_Gate/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/08/16 15:36:28: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/08/16 15:36:28: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/08/16 15:36:28: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 15:36:28: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 15:36:28: RunPythonScript: scriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch11; cwd: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch11, source root: /Users/Rene/Desktop/BitByBit_launch11
+tarball flag file /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/.iOS.tar.1439719669.0.extracted exists? True
+tarball already extracted at /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch11/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch11/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/08/16 15:36:31: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch11"  "/Users/Rene/Desktop/UnityProject_Gate/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/08/16 15:53:20: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/08/16 15:53:20: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/08/16 15:53:20: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 15:53:20: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 15:53:20: RunPythonScript: scriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch12; cwd: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch12, source root: /Users/Rene/Desktop/BitByBit_launch12
+tarball flag file /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/.iOS.tar.1439719669.0.extracted exists? True
+tarball already extracted at /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch12/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch12/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/08/16 15:53:21: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch12"  "/Users/Rene/Desktop/UnityProject_Gate/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/08/16 16:02:26: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/08/16 16:02:26: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/08/16 16:02:26: CombinePaths: full: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 16:02:26: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/08/16 16:02:26: RunPythonScript: scriptPath:/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_launch14; cwd: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_launch14, source root: /Users/Rene/Desktop/BitByBit_launch14
+tarball flag file /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/.iOS.tar.1439719669.0.extracted exists? True
+tarball already extracted at /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_launch14/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/Native/.iOS.tar.1439719669.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_launch14/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/08/16 16:02:27: sub process "/usr/bin/env  "python"  "/Users/Rene/Desktop/UnityProject_Gate/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_launch14"  "/Users/Rene/Desktop/UnityProject_Gate/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/10/18 13:35:06: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/10/18 13:35:06: CombinePaths: full: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/10/18 13:35:06: CombinePaths: full: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/10/18 13:35:06: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/10/18 13:35:06: RunPythonScript: scriptPath:/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_school_1.0; cwd: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_school_1.0, source root: /Users/Rene/Desktop/BitByBit_school_1.0
+tarball flag file /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0/.iOS.tar.1443958735.0.extracted exists? False
+extracting /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/iOS.tar.gz to /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0
+adding to project src_path: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_school_1.0/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_school_1.0/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/10/18 13:35:08: sub process "/usr/bin/env  "python"  "/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_school_1.0"  "/Users/Rene/Documents/cornerstone/Bit by Bit/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/10/18 14:02:36: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/10/18 14:02:36: CombinePaths: full: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/10/18 14:02:36: CombinePaths: full: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/10/18 14:02:36: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/10/18 14:02:36: RunPythonScript: scriptPath:/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_school_1.1; cwd: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_school_1.1, source root: /Users/Rene/Desktop/BitByBit_school_1.1
+tarball flag file /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0/.iOS.tar.1443958735.0.extracted exists? True
+tarball already extracted at /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0
+adding to project src_path: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_school_1.1/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_school_1.1/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/10/18 14:02:37: sub process "/usr/bin/env  "python"  "/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_school_1.1"  "/Users/Rene/Documents/cornerstone/Bit by Bit/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/10/18 14:43:17: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/10/18 14:43:17: CombinePaths: full: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts; paths[1]: Plugins/Floop/PostbuildScripts
+[FloopSDK post-build] 2015/10/18 14:43:17: CombinePaths: full: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; paths[2]: FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/10/18 14:43:17: RunPostbuildScriptForIOS: pythonScriptPath:/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py
+[FloopSDK post-build] 2015/10/18 14:43:17: RunPythonScript: scriptPath:/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py; args: System.Object[]; allArgs: System.Collections.Generic.List`1[System.Object]
+/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py: started
+---------------------------
+project_path: /Users/Rene/Desktop/BitByBit_school_1.2; cwd: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts
+Loaded project.pbxproj from /Users/Rene/Desktop/BitByBit_school_1.2, source root: /Users/Rene/Desktop/BitByBit_school_1.2
+tarball flag file /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0/.iOS.tar.1443958735.0.extracted exists? True
+tarball already extracted at /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0
+adding to project src_path: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0/floopsdk.embeddedframework; dst_path: /Users/Rene/Desktop/BitByBit_school_1.2/floopsdk.embeddedframework
+added Accelerate framework
+added AdSupport framework
+added CFNetwork framework
+added CoreData framework
+added CoreImage framework
+added MobileCoreServices framework
+added SystemConfiguration framework
+added QuartzCore framework
+added Social framework
+added MessageUI framework
+added AddressBook framework
+added AddressBookUI framework
+adding to project src_path: /Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/Native/.iOS.tar.1443958735.0/libfloopsdk-unity-bridge.a; dst_path: /Users/Rene/Desktop/BitByBit_school_1.2/libfloopsdk-unity-bridge.a
+Saved project.
+---------------------------
+[FloopSDK post-build] 2015/10/18 14:43:18: sub process "/usr/bin/env  "python"  "/Users/Rene/Documents/cornerstone/Bit by Bit/Assets/Plugins/Floop/PostbuildScripts/FloopPostBuild-iOS.py"  "/Users/Rene/Desktop/BitByBit_school_1.2"  "/Users/Rene/Documents/cornerstone/Bit by Bit/floopSdk-postprocess-build.log"  "4.6.5f1" " exited with 0
+[FloopSDK post-build] 2015/11/08 16:05:14: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/11/08 16:05:14: No postbuild for target Android
+[FloopSDK post-build] 2015/11/08 17:10:53: ============== Started ====================
+
+
+[FloopSDK post-build] 2015/11/08 17:10:53: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 11:48:32: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 11:48:32: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 12:05:28: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 12:05:29: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 12:24:42: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 12:24:42: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 13:36:06: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 13:36:06: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 13:54:57: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 13:54:57: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 14:29:09: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 14:29:09: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 14:46:15: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 14:46:15: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 14:51:01: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 14:51:01: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 14:58:18: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 14:58:18: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 15:03:51: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 15:03:51: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 15:42:22: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 15:42:22: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:04:12: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:04:12: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:11:12: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:11:12: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:14:48: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:14:48: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:18:55: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:18:55: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:33:35: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:33:35: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:37:29: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:37:29: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:42:44: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:42:44: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:46:55: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:46:55: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:51:25: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:51:25: No postbuild for target Android
+[FloopSDK post-build] 2016/01/17 16:55:47: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/17 16:55:47: No postbuild for target Android
+[FloopSDK post-build] 2016/01/24 12:46:42: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/24 12:46:42: No postbuild for target Android
+[FloopSDK post-build] 2016/01/24 13:18:11: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/01/24 13:18:11: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 11:26:38: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 11:26:38: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 11:31:48: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 11:31:48: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 11:38:26: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 11:38:26: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 11:47:45: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 11:47:45: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 12:07:21: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 12:07:21: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 12:17:17: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 12:17:17: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 12:30:30: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 12:30:30: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 12:38:09: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 12:38:09: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 12:43:35: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 12:43:35: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 12:51:16: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 12:51:16: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 13:05:53: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 13:05:53: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 13:13:54: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 13:13:54: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 13:53:59: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 13:53:59: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 14:14:37: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 14:14:37: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 14:23:37: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 14:23:37: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 14:31:36: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 14:31:37: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 14:35:21: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 14:35:21: No postbuild for target Android
+[FloopSDK post-build] 2016/02/14 14:42:50: ============== Started ====================
+
+
+[FloopSDK post-build] 2016/02/14 14:42:50: No postbuild for target Android

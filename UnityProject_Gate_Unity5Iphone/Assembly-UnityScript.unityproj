@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7E4FEB02-8E8A-ECD2-CA72-4D40BD1DE68F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FloopExamples\FloopDemo_js.js" />
+     <None Include="Assets\Resources\LevelData\Level23.txt" />
+     <None Include="Assets\Resources\LevelData\Level5.txt" />
+     <None Include="Assets\Resources\LevelData\Level6.txt" />
+     <None Include="Assets\Resources\LevelData\Level18.txt" />
+     <None Include="Assets\Resources\LevelData\Level21.txt" />
+     <None Include="Assets\Resources\LevelData\Level36.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel1.txt" />
+     <None Include="Assets\Resources\LevelData\Level40.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel3.txt" />
+     <None Include="Assets\Resources\LevelData\Level51.txt" />
+     <None Include="Assets\Resources\LevelData\Level25.txt" />
+     <None Include="Assets\Resources\LevelData\WorldOrderSchool.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder2.txt" />
+     <None Include="Assets\Resources\LevelData\Level30.txt" />
+     <None Include="Assets\Resources\LevelData\Level37.txt" />
+     <None Include="Assets\Resources\LevelData\Level2.txt" />
+     <None Include="Assets\Resources\LevelData\Level29.txt" />
+     <None Include="Assets\Resources\LevelData\Level4.txt" />
+     <None Include="Assets\Resources\LevelData\Level15.txt" />
+     <None Include="Assets\Resources\LevelData\Level49.txt" />
+     <None Include="Assets\Resources\LevelData\Level9.txt" />
+     <None Include="Assets\Resources\LevelData\Level34.txt" />
+     <None Include="Assets\Resources\LevelData\Level47.txt" />
+     <None Include="Assets\Resources\LevelData\Level13.txt" />
+     <None Include="Assets\Resources\LevelData\WorldOrder.txt" />
+     <None Include="Assets\Resources\LevelData\Level14.txt" />
+     <None Include="Assets\Resources\LevelData\Level3.txt" />
+     <None Include="Assets\Resources\LevelData\Level1.txt" />
+     <None Include="Assets\Resources\LevelData\Level16.txt" />
+     <None Include="Assets\Resources\LevelData\Level1_test.txt" />
+     <None Include="Assets\Resources\LevelData\Level48.txt" />
+     <None Include="Assets\Resources\LevelData\Level35.txt" />
+     <None Include="Assets\Resources\LevelData\Level11.txt" />
+     <None Include="Assets\Resources\LevelData\Level17.txt" />
+     <None Include="Assets\Resources\LevelData\Level43.txt" />
+     <None Include="Assets\Resources\LevelData\Level38.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder3.txt" />
+     <None Include="Assets\Resources\LevelData\sandbox.txt" />
+     <None Include="Assets\Resources\LevelData\Level44.txt" />
+     <None Include="Assets\Plugins\WP8\IAPMock.xml" />
+     <None Include="Assets\Resources\LevelData\Level50.txt" />
+     <None Include="Assets\Resources\LevelData\Level42.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder4.txt" />
+     <None Include="Assets\Resources\LevelData\Level27.txt" />
+     <None Include="Assets\Resources\LevelData\Level31.txt" />
+     <None Include="Assets\Resources\LevelData\Level10.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder.txt" />
+     <None Include="Assets\Resources\LevelData\Level7.txt" />
+     <None Include="Assets\Resources\LevelData\Level33.txt" />
+     <None Include="Assets\Resources\LevelData\Level22.txt" />
+     <None Include="Assets\Resources\LevelData\Level24.txt" />
+     <None Include="Assets\Resources\LevelData\Level19.txt" />
+     <None Include="Assets\Resources\LevelData\Level39.txt" />
+     <None Include="Assets\Resources\LevelData\Level46.txt" />
+     <None Include="Assets\Resources\LevelData\Level12.txt" />
+     <None Include="Assets\Resources\LevelData\Level32.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Resources\LevelData\Level52.txt" />
+     <None Include="Assets\Resources\LevelData\Level20.txt" />
+     <None Include="Assets\Resources\LevelData\Level26.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel2.txt" />
+     <None Include="Assets\Resources\LevelData\Level8.txt" />
+     <None Include="Assets\Resources\LevelData\Level41.txt" />
+     <None Include="Assets\Resources\LevelData\Level28.txt" />
+     <None Include="Assets\Resources\LevelData\Level45.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="soomla-wp-core">
+ <HintPath>C:/Users/l6hmus/Documents/C2K/trunk/UnityProject_Gate/Assets/Plugins/soomla-wp-core.dll</HintPath>
+ </Reference>
+ <Reference Include="wp-store">
+ <HintPath>C:/Users/l6hmus/Documents/C2K/trunk/UnityProject_Gate/Assets/Plugins/wp-store.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{776FC70E-2CA8-CCE0-4E9D-58D59EE256AF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

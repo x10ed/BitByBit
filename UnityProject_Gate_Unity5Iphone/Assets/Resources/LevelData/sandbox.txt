@@ -1,0 +1,17 @@
+Scene:MapGen1
+Name:25
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;99,arrowOrange;99,jumpBlue;99,jumpOrange;99,colorChangeBlue;99,colorChangeOrange;99
+StartPositionX:-7,0
+StartPositionY:4,0
+IsAllwaysUnlocked:true
+OneStar:1
+TwoStars:2
+ThreeStars:2
+LevelWin:1
+00,00,00,00,00,00
+00,00,00,00,00,00
+SR,00,00,00,00,SF
+KR,00,00,00,00,KF
+00,00,00,00,00,00
+00,00,00,00,00,00

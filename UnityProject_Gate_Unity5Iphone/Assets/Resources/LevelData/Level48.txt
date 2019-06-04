@@ -1,0 +1,17 @@
+Scene:level_BG_02
+Name:48
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;2,arrowPink;4,arrowOrange;2,colorChangeBlue;2,colorChangePink;2,colorChangeOrange;2
+StartPositionX:-8,0
+StartPositionY:5,0
+UnlocksLevels:Level36
+OneStar:4
+TwoStars:5
+ThreeStars:6
+LevelWin:4
+__,__,__,KD,__,__,__
+__,RR,00,00,KL,00,__
+__,00,SR,OX,00,00,00
+SR,00,BX,00,PX,00,RL
+__,__,00,00,00,__,__
+__,__,BF,OF,PF,__,__

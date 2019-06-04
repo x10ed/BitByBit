@@ -1,0 +1,17 @@
+Scene:level_BG_04
+Name:28
+InventoryBackground:InventoryBackground
+Inventory:arrowPink;4,arrowOrange;4,arrowBlue;4,jumpPink;2,jumpOrange;2,jumpBlue;2
+StartPositionX:-9,0
+StartPositionY:5,0
+UnlocksLevels:Level23
+OneStar:3
+TwoStars:4
+ThreeStars:5
+LevelWin:3
+00,PF,__,__,__,__,00,KD
+SR,00,__,00,00,__,00,00
+__,__,__,OF,00,__,__,__
+00,RD,__,__,__,__,00,00
+00,00,__,00,RL,__,00,KU
+__,__,__,BF,00,__,__,__

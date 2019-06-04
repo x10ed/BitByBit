@@ -1,0 +1,14 @@
+Scene:level_BG_05
+Name:7
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;2,arrowOrange;2,colorChangeOrange;1
+StartPositionX:-4,0
+StartPositionY:2,0
+UnlocksLevels:Level46
+OneStar:1
+TwoStars:2
+ThreeStars:3
+LevelWin:1
+00,00,KD,KL
+00,00,00,00
+KU,00,BF,00

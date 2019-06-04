@@ -1,0 +1,17 @@
+Scene:level_BG_03
+Name:25
+OnStartPopUp:pop_up_gate
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;1,arrowOrange;1
+StartPositionX:-7,0
+StartPositionY:4,0
+UnlocksLevels:Level40
+OneStar:1
+TwoStars:2
+ThreeStars:2
+LevelWin:1
+__,__,SD,__,__,__
+__,__,00,__,__,__
+KR,00,00,00,00,BF
+__,__,__,00,__,__
+__,__,__,OF,__,__

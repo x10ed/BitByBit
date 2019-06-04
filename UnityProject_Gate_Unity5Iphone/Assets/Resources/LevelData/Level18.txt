@@ -1,0 +1,17 @@
+Scene:level_BG_05
+Name:18
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;3,arrowPink;3,arrowOrange;3,colorChangePink;4
+StartPositionX:-6,0
+StartPositionY:4,0
+UnlocksLevels:Level29
+OneStar:3
+TwoStars:4
+ThreeStars:5
+LevelWin:3
+Nextworld:LevelOrder2,Level19
+00,00,00,00,00
+00,00,RD,00,00
+BR,RU,00,RL,BF
+00,OF,00,OL,00
+00,00,00,RU,RL

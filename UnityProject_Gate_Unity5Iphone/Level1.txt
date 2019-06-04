@@ -1,0 +1,8 @@
+Scene:MapGen1
+Name:Elevantide rünnak
+InventoryBackground:Taust1
+Inventory:buleGate;4,OrangeGate;6
+StartPositionX:-4,0
+StartPositionY:2,0
+KR,00,00,BF
+__,SU,YF,__

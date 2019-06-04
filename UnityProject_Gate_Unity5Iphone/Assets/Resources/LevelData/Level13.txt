@@ -1,0 +1,16 @@
+Scene:level_BG_03
+Name:13
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;4,arrowOrange;4,jumpBlue;1,jumpOrange;1
+StartPositionX:-7,0
+StartPositionY:4,0
+UnlocksLevels:tutLevel2
+OneStar:1
+TwoStars:2
+ThreeStars:3
+LevelWin:1
+OF,SD,__,__,__,__
+SR,00,00,__,00,__
+00,00,__,__,00,00
+__,00,__,00,00,KL
+__,__,__,__,KU,BF

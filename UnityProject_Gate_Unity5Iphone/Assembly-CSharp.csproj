@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{D81BC5EF-E7B9-6AF0-FC3E-25A47D69F01F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_0;UNITY_2017_4;UNITY_2017;UNITY_ANALYTICS;UNITY_PURCHASING;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_SPATIALTRACKING;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\animate.cs" />
+     <Compile Include="Assets\cameraPan.cs" />
+     <Compile Include="Assets\CloseThisOnClick.cs" />
+     <Compile Include="Assets\fadeIn.cs" />
+     <Compile Include="Assets\gyro.cs" />
+     <Compile Include="Assets\InitSoomla.cs" />
+     <Compile Include="Assets\loading.cs" />
+     <Compile Include="Assets\OnStartDeletePlayerPrefs.cs" />
+     <Compile Include="Assets\parentalGate.cs" />
+     <Compile Include="Assets\pinchZoom.cs" />
+     <Compile Include="Assets\RelocateToCorrect.cs" />
+     <Compile Include="Assets\ResetPlayerPrefOnClick.cs" />
+     <Compile Include="Assets\RestorePurchase.cs" />
+     <Compile Include="Assets\Scripts\AlgKiirus.cs" />
+     <Compile Include="Assets\Scripts\AnimationHandler.cs" />
+     <Compile Include="Assets\Scripts\AnimationTest.cs" />
+     <Compile Include="Assets\Scripts\Ball.cs" />
+     <Compile Include="Assets\Scripts\BaseGate.cs" />
+     <Compile Include="Assets\Scripts\BtnAnimation.cs" />
+     <Compile Include="Assets\Scripts\Button.cs" />
+     <Compile Include="Assets\Scripts\ChangeColorGate.cs" />
+     <Compile Include="Assets\Scripts\ChangeDirection.cs" />
+     <Compile Include="Assets\Scripts\ChangeDirectionBase.cs" />
+     <Compile Include="Assets\Scripts\ChangeDirectionDouble.cs" />
+     <Compile Include="Assets\Scripts\ClickAnimation.cs" />
+     <Compile Include="Assets\Scripts\Cloner.cs" />
+     <Compile Include="Assets\Scripts\ColorWall.cs" />
+     <Compile Include="Assets\Scripts\Common\FileReaderHelper.cs" />
+     <Compile Include="Assets\Scripts\Common\GameMaster.cs" />
+     <Compile Include="Assets\Scripts\Common\GateLimitSetting.cs" />
+     <Compile Include="Assets\Scripts\Common\GateLimitWorkSet.cs" />
+     <Compile Include="Assets\Scripts\Common\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\Common\MyIAPManager.cs" />
+     <Compile Include="Assets\Scripts\Common\ScoreBoard.cs" />
+     <Compile Include="Assets\Scripts\Common\ShowScore.cs" />
+     <Compile Include="Assets\Scripts\ContinuesMusicPlayer.cs" />
+     <Compile Include="Assets\Scripts\Destroy.cs" />
+     <Compile Include="Assets\Scripts\destroy2.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnSecondCollision.cs" />
+     <Compile Include="Assets\Scripts\DirectionEnum.cs" />
+     <Compile Include="Assets\Scripts\Disableable.cs" />
+     <Compile Include="Assets\Scripts\Door.cs" />
+     <Compile Include="Assets\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Scripts\Extension.cs" />
+     <Compile Include="Assets\Scripts\FinishCounter.cs" />
+     <Compile Include="Assets\Scripts\GateEraser.cs" />
+     <Compile Include="Assets\Scripts\Gun.cs" />
+     <Compile Include="Assets\Scripts\GunImmediately.cs" />
+     <Compile Include="Assets\Scripts\Helper\StarHelper.cs" />
+     <Compile Include="Assets\Scripts\IfCount.cs" />
+     <Compile Include="Assets\Scripts\InfiniteCloner.cs" />
+     <Compile Include="Assets\Scripts\Jump.cs" />
+     <Compile Include="Assets\Scripts\LevelSelect.cs" />
+     <Compile Include="Assets\Scripts\LevelSelectGrid.cs" />
+     <Compile Include="Assets\Scripts\loadNextScreen.cs" />
+     <Compile Include="Assets\Scripts\LoadSceneOnMouseUp.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\MapGen.cs" />
+     <Compile Include="Assets\Scripts\MapMakker.cs" />
+     <Compile Include="Assets\Scripts\NextLevelOnClick.cs" />
+     <Compile Include="Assets\Scripts\ObjectLabel.cs" />
+     <Compile Include="Assets\Scripts\OpenWebUrlOnClick.cs" />
+     <Compile Include="Assets\Scripts\playButton.cs" />
+     <Compile Include="Assets\Scripts\ResetOnClick.cs" />
+     <Compile Include="Assets\Scripts\ScaleChanger.cs" />
+     <Compile Include="Assets\Scripts\SizeGate.cs" />
+     <Compile Include="Assets\Scripts\Soomla\BuyFullVersion.cs" />
+     <Compile Include="Assets\Scripts\Soomla\FullGame.cs" />
+     <Compile Include="Assets\Scripts\StartActivityIndicator.cs" />
+     <Compile Include="Assets\Scripts\StartOnClick.cs" />
+     <Compile Include="Assets\Scripts\StaticChangeDirection.cs" />
+     <Compile Include="Assets\Scripts\Teleport.cs" />
+     <Compile Include="Assets\Scripts\Wall.cs" />
+     <Compile Include="Assets\Scripts\WorldlSelect.cs" />
+     <Compile Include="Assets\Scripts\WorldScreenTexture.cs" />
+     <Compile Include="Assets\Scripts\WorldSelectGrid.cs" />
+     <Compile Include="Assets\SetGameGlobalSettings.cs" />
+     <Compile Include="Assets\ShowLevelSelectBtn.cs" />
+     <Compile Include="Assets\showLoading.cs" />
+     <Compile Include="Assets\slide.cs" />
+     <Compile Include="Assets\tileFall.cs" />
+     <Compile Include="Assets\UrlParentalGate.cs" />
+     <None Include="Assets\Resources\LevelData\Level23.txt" />
+     <None Include="Assets\Resources\LevelData\Level5.txt" />
+     <None Include="Assets\Resources\LevelData\Level6.txt" />
+     <None Include="Assets\Resources\LevelData\Level18.txt" />
+     <None Include="Assets\Resources\LevelData\Level21.txt" />
+     <None Include="Assets\Resources\LevelData\Level36.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel1.txt" />
+     <None Include="Assets\Resources\LevelData\Level40.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel3.txt" />
+     <None Include="Assets\Resources\LevelData\Level51.txt" />
+     <None Include="Assets\Resources\LevelData\Level25.txt" />
+     <None Include="Assets\Resources\LevelData\WorldOrderSchool.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder2.txt" />
+     <None Include="Assets\Resources\LevelData\Level30.txt" />
+     <None Include="Assets\Resources\LevelData\Level37.txt" />
+     <None Include="Assets\Resources\LevelData\Level2.txt" />
+     <None Include="Assets\Resources\LevelData\Level29.txt" />
+     <None Include="Assets\Resources\LevelData\Level4.txt" />
+     <None Include="Assets\Resources\LevelData\Level15.txt" />
+     <None Include="Assets\Resources\LevelData\Level49.txt" />
+     <None Include="Assets\Resources\LevelData\Level9.txt" />
+     <None Include="Assets\Resources\LevelData\Level34.txt" />
+     <None Include="Assets\Resources\LevelData\Level47.txt" />
+     <None Include="Assets\Resources\LevelData\Level13.txt" />
+     <None Include="Assets\Resources\LevelData\WorldOrder.txt" />
+     <None Include="Assets\Resources\LevelData\Level14.txt" />
+     <None Include="Assets\Resources\LevelData\Level3.txt" />
+     <None Include="Assets\Resources\LevelData\Level1.txt" />
+     <None Include="Assets\Resources\LevelData\Level16.txt" />
+     <None Include="Assets\Resources\LevelData\Level1_test.txt" />
+     <None Include="Assets\Resources\LevelData\Level48.txt" />
+     <None Include="Assets\Resources\LevelData\Level35.txt" />
+     <None Include="Assets\Resources\LevelData\Level11.txt" />
+     <None Include="Assets\Resources\LevelData\Level17.txt" />
+     <None Include="Assets\Resources\LevelData\Level43.txt" />
+     <None Include="Assets\Resources\LevelData\Level38.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder3.txt" />
+     <None Include="Assets\Resources\LevelData\sandbox.txt" />
+     <None Include="Assets\Resources\LevelData\Level44.txt" />
+     <None Include="Assets\Resources\LevelData\Level50.txt" />
+     <None Include="Assets\Resources\LevelData\Level42.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder4.txt" />
+     <None Include="Assets\Resources\LevelData\Level27.txt" />
+     <None Include="Assets\Resources\LevelData\Level31.txt" />
+     <None Include="Assets\Resources\LevelData\Level10.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder.txt" />
+     <None Include="Assets\Resources\LevelData\Level7.txt" />
+     <None Include="Assets\Resources\LevelData\Level33.txt" />
+     <None Include="Assets\Resources\LevelData\Level22.txt" />
+     <None Include="Assets\Resources\LevelData\Level24.txt" />
+     <None Include="Assets\Resources\LevelData\Level19.txt" />
+     <None Include="Assets\Resources\LevelData\Level39.txt" />
+     <None Include="Assets\Resources\LevelData\Level46.txt" />
+     <None Include="Assets\Resources\LevelData\Level12.txt" />
+     <None Include="Assets\Resources\LevelData\Level32.txt" />
+     <None Include="Assets\Resources\LevelData\Level52.txt" />
+     <None Include="Assets\Resources\LevelData\Level20.txt" />
+     <None Include="Assets\Resources\LevelData\Level26.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel2.txt" />
+     <None Include="Assets\Resources\LevelData\Level8.txt" />
+     <None Include="Assets\Resources\LevelData\Level41.txt" />
+     <None Include="Assets\Resources\LevelData\Level28.txt" />
+     <None Include="Assets\Resources\LevelData\Level45.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Users/rene/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/rene/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/rene/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>/Users/rene/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

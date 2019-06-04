@@ -1,0 +1,15 @@
+Scene:level_BG_02
+Name:36
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;3,arrowPink;2,colorChangeBlue;1,colorChangePink;1
+StartPositionX:-6,0
+StartPositionY:3,0
+UnlocksLevels:Level30
+OneStar:2
+TwoStars:3
+ThreeStars:4
+LevelWin:2
+__,__,RD,__,__
+__,BX,00,BD,__
+PR,00,00,BF,RL
+00,SU,00,00,SL

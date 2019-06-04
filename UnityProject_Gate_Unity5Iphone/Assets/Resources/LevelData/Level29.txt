@@ -1,0 +1,15 @@
+Scene:level_BG_05
+Name:29
+InventoryBackground:InventoryBackground
+Inventory:arrowPink;3,arrowOrange;2,arrowBlue;4
+StartPositionX:-8,0
+StartPositionY:3,0
+Nextworld:LevelOrder4,Level50
+OneStar:3
+TwoStars:4
+ThreeStars:5
+LevelWin:3
+RR,BF,KD,OX,00,SD,00
+SD,BX,SR,PX,OX,00,00
+PX,PF,BX,OF,BX,OX,00
+00,RR,00,00,00,KL,NU

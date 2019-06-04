@@ -1,0 +1,15 @@
+Scene:level_BG_05
+Name:20
+OnStartPopUp:pop_up_colorChange
+InventoryBackground:InventoryBackground
+Inventory:colorChangePink;1,colorChangeOrange;1,arrowBlue;1,arrowOrange;1
+StartPositionX:-6,0
+StartPositionY:2,5
+UnlocksLevels:Level32
+OneStar:2
+TwoStars:3
+ThreeStars:4
+LevelWin:2
+00,RR,KL,0T,OF
+__,__,__,__,__
+00,KR,SL,00,BF

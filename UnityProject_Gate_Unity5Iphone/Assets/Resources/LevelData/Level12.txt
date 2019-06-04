@@ -1,0 +1,12 @@
+Scene:level_BG_05
+Name:12
+InventoryBackground:InventoryBackground
+Inventory:colorChangeBlue;1,colorChangeOrange;1,colorChangePink;1
+StartPositionX:-9,0
+StartPositionY:1,0
+UnlocksLevels:Level21
+OneStar:1
+TwoStars:2
+ThreeStars:3
+LevelWin:1
+OF,00,RR,00,SL,KR,00,BF

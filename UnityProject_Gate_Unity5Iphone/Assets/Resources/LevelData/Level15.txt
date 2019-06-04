@@ -1,0 +1,16 @@
+Scene:level_BG_04
+Name:15
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;5,arrowOrange;5,jumpBlue;3,jumpOrange;1
+StartPositionX:-9,0
+StartPositionY:4,0
+UnlocksLevels:Level39
+OneStar:4
+TwoStars:6
+ThreeStars:7
+LevelWin:4
+__,SD,__,BF,00,00,SD,00
+__,00,00,__,00,KD,00,__
+KR,00,KR,00,XX,00,__,00
+__,00,00,00,SL,00,00,00
+__,OF,__,00,00,00,00,KU

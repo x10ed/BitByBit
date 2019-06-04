@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{41052F9A-E994-B736-9D09-AF6AA8704AFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\ComboBox.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemo.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\UnibillDemo.cs" />
+     <None Include="Assets\Resources\LevelData\Level23.txt" />
+     <None Include="Assets\Resources\LevelData\Level5.txt" />
+     <None Include="Assets\Resources\LevelData\Level6.txt" />
+     <None Include="Assets\Resources\LevelData\Level18.txt" />
+     <None Include="Assets\Resources\LevelData\Level21.txt" />
+     <None Include="Assets\Resources\LevelData\Level36.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel1.txt" />
+     <None Include="Assets\Resources\LevelData\Level40.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel3.txt" />
+     <None Include="Assets\Resources\LevelData\Level51.txt" />
+     <None Include="Assets\Resources\LevelData\Level25.txt" />
+     <None Include="Assets\Resources\LevelData\WorldOrderSchool.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder2.txt" />
+     <None Include="Assets\Resources\LevelData\Level30.txt" />
+     <None Include="Assets\Resources\LevelData\Level37.txt" />
+     <None Include="Assets\Resources\LevelData\Level2.txt" />
+     <None Include="Assets\Resources\LevelData\Level29.txt" />
+     <None Include="Assets\Resources\LevelData\Level4.txt" />
+     <None Include="Assets\Resources\LevelData\Level15.txt" />
+     <None Include="Assets\Resources\LevelData\Level49.txt" />
+     <None Include="Assets\Resources\LevelData\Level9.txt" />
+     <None Include="Assets\Resources\LevelData\Level34.txt" />
+     <None Include="Assets\Resources\LevelData\Level47.txt" />
+     <None Include="Assets\Resources\LevelData\Level13.txt" />
+     <None Include="Assets\Resources\LevelData\WorldOrder.txt" />
+     <None Include="Assets\Resources\LevelData\Level14.txt" />
+     <None Include="Assets\Resources\LevelData\Level3.txt" />
+     <None Include="Assets\Resources\LevelData\Level1.txt" />
+     <None Include="Assets\Resources\LevelData\Level16.txt" />
+     <None Include="Assets\Resources\LevelData\Level1_test.txt" />
+     <None Include="Assets\Resources\LevelData\Level48.txt" />
+     <None Include="Assets\Resources\LevelData\Level35.txt" />
+     <None Include="Assets\Resources\LevelData\Level11.txt" />
+     <None Include="Assets\Resources\LevelData\Level17.txt" />
+     <None Include="Assets\Resources\LevelData\Level43.txt" />
+     <None Include="Assets\Resources\LevelData\Level38.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder3.txt" />
+     <None Include="Assets\Resources\LevelData\sandbox.txt" />
+     <None Include="Assets\Resources\LevelData\Level44.txt" />
+     <None Include="Assets\Resources\LevelData\Level50.txt" />
+     <None Include="Assets\Resources\LevelData\Level42.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder4.txt" />
+     <None Include="Assets\Resources\LevelData\Level27.txt" />
+     <None Include="Assets\Resources\LevelData\Level31.txt" />
+     <None Include="Assets\Resources\LevelData\Level10.txt" />
+     <None Include="Assets\Resources\LevelData\LevelOrder.txt" />
+     <None Include="Assets\Resources\LevelData\Level7.txt" />
+     <None Include="Assets\Resources\LevelData\Level33.txt" />
+     <None Include="Assets\Resources\LevelData\Level22.txt" />
+     <None Include="Assets\Resources\LevelData\Level24.txt" />
+     <None Include="Assets\Resources\LevelData\Level19.txt" />
+     <None Include="Assets\Resources\LevelData\Level39.txt" />
+     <None Include="Assets\Resources\LevelData\Level46.txt" />
+     <None Include="Assets\Resources\LevelData\Level12.txt" />
+     <None Include="Assets\Resources\LevelData\Level32.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Resources\LevelData\Level52.txt" />
+     <None Include="Assets\Resources\LevelData\Level20.txt" />
+     <None Include="Assets\Resources\LevelData\Level26.txt" />
+     <None Include="Assets\Resources\LevelData\tutLevel2.txt" />
+     <None Include="Assets\Resources\LevelData\Level8.txt" />
+     <None Include="Assets\Resources\LevelData\Level41.txt" />
+     <None Include="Assets\Resources\LevelData\Level28.txt" />
+     <None Include="Assets\Resources\LevelData\Level45.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>/Users/normanniklus/Norman/Rikai/Code2Kids/c2k/UnityProject_Gate_Unity5Iphone/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>/Users/normanniklus/Norman/Rikai/Code2Kids/c2k/UnityProject_Gate_Unity5Iphone/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>/Users/normanniklus/Norman/Rikai/Code2Kids/c2k/UnityProject_Gate_Unity5Iphone/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>/Users/normanniklus/Norman/Rikai/Code2Kids/c2k/UnityProject_Gate_Unity5Iphone/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>/Users/normanniklus/Norman/Rikai/Code2Kids/c2k/UnityProject_Gate_Unity5Iphone/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>/Users/normanniklus/Norman/Rikai/Code2Kids/c2k/UnityProject_Gate_Unity5Iphone/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>/Users/normanniklus/Norman/Rikai/Code2Kids/c2k/UnityProject_Gate_Unity5Iphone/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

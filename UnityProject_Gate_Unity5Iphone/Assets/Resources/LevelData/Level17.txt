@@ -1,0 +1,16 @@
+Scene:level_BG_02
+Name:17
+InventoryBackground:InventoryBackground
+Inventory:arrowBlue;3,arrowPink;3
+StartPositionX:-7,0
+StartPositionY:4,0
+UnlocksLevels:Level49
+OneStar:1
+TwoStars:2
+ThreeStars:2
+LevelWin:1
+00,00,__,__,00,00
+XX,BF,T1,T2,PF,XX
+00,__,SU,RU,__,00
+00,00,00,00,00,00
+__,00,T2,T1,00,__
